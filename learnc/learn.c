@@ -7,9 +7,10 @@ int main(){
         printf("Arg %d: %s\n", i, argv[i]);
     }*/
     
+    printf("Enter a command =");
     char buffer[1000]; //declare stack array
-    buffer[0] = 'a';
-    printf("Buffer[0] = %c\n", buffer[0]);
-    printf("*buffer = %c\n", *buffer);
+    gets(buffer);
+    //printf("Buffer[0] = %c\n", buffer[0]);
+    //printf("*buffer = %c\n", *buffer);
     
 }

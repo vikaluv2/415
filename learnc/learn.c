@@ -3,7 +3,6 @@
 
 int main(){
     
-    
     /*for(int i = 0; i < argc; i++){
         printf("Arg %d: %s\n", i, argv[i]);
     }*/
@@ -13,7 +12,8 @@ int main(){
     space = strtok (stdin, " ,.-");
     char buffer[1000]; //declare stack array
     gets(buffer);
-    printf("result = %s\n",space, buffer);
-    //printf("*buffer = %c\n", *buffer);
+    printf("result = space\n", buffer);
+    
+   
     
 }

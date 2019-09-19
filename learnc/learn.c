@@ -8,9 +8,9 @@ int main(){
         printf("Arg %d: %s\n", i, argv[i]);
     }*/
     
-    //printf("Enter a command =");
+    printf("Enter a command =" , stdin);
     char buffer[1000]; //declare stack array
-    fgets(buffer, 1000, stdin);
+    gets(buffer);
     printf("result = %s\n", buffer);
     //printf("*buffer = %c\n", *buffer);
     

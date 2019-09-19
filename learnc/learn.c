@@ -10,7 +10,7 @@ int main(){
     printf("Enter a command =");
     char buffer[1000]; //declare stack array
     gets(buffer);
-    //printf("Buffer[0] = %c\n", buffer[0]);
+    printf("result = %s\n", buffer);
     //printf("*buffer = %c\n", *buffer);
     
 }
